@@ -54,10 +54,15 @@ h1{
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.2);
   flex: 1;
+  min-width: 0;
+  margin-bottom: 0px;
 }
 .senhaImagem{
   display: flex;
   align-items: center;
+  text-aling: center;
+  width: 100%;
+  overflow: hidden;
 }
 .botaoOlho{
   margin-left: 5px;
