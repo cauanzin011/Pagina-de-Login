@@ -1,0 +1,145 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: url("./fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.login{
+  border: 1px solid white;
+  gap: 10px;
+  background: rgba(20, 20, 20, 0.65);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  animation: entrar 1s;
+}
+h1{
+  margin-bottom: 20px;
+}
+.email{
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: #D1D5DB;
+  background: none;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.senha{
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: #D1D5DB;
+  background: none;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.senhaImagem{
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.botaoOlho{
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.08);
+  transition: 0.3s;
+}
+.botaoOlho:hover{
+  background: rgba(255, 255, 255, 0.15);
+}
+.botaoOlho:active{
+  background: rgba(96, 165, 250, 0.25);
+  border: 1px solid #60A5FA;
+  transform: scale(0.95);
+}
+.olho{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+input::placeholder{
+  color: darkgray;
+}
+a{
+  text-decoration: none;
+  color: #CBD5E1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mensagem{
+  font-size: 15px;
+  color: darkgray;
+}
+.entrar{
+  padding: 10px;
+  border-radius: 50px;
+  background: #1E293B;
+  color: #D1D5DB;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.entrar:hover{
+  background: #2d3f57;
+}
+.entrar:active{
+  transform: scale(0.95);
+}
+a:active{
+  color: #60A5FA;
+}
+a:hover{
+  color: #93C5FD;
+}
+input:focus{
+  background: rgba(255, 255, 255, 0.05);
+  outline: 2px solid #60A5FA;
+  transition: 0.5s;
+}
+@keyframes entrar{
+  from{opacity: 0;
+       transform: translateY(30px);}
+  to{opacity: 1;
+     transform: translateY(0);}
+}
+@media (min-width: 600px){
+  .login{
+  width: 60%;
+    transition: none;
+  }
+}
+@media (min-width: 1024px){
+  .login{
+    width: 40%;
+    transition: none;
+  }
+}
