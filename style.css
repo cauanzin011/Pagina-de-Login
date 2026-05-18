@@ -57,7 +57,6 @@ h1{
 .senhaImagem{
   display: flex;
   align-items: center;
-  text-aling: center;
 }
 .botaoOlho{
   margin-left: 5px;
@@ -134,13 +133,13 @@ input:focus{
 @media (min-width: 600px){
   .login{
     transform: scale(2.5);
-    transition: none;  
+    animation: none;  
   }
 }
 
 @media (min-width: 1024px){
   .login{
     transform: scale(3);
-    transition: none;
+    animation: none;
   }
 }
