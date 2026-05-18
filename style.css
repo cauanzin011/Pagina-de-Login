@@ -58,7 +58,6 @@ h1{
 .senhaImagem{
   display: flex;
   align-items: center;
-  width: 100%;
 }
 .botaoOlho{
   margin-left: 5px;
