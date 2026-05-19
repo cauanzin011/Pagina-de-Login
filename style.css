@@ -132,11 +132,13 @@ input:focus{
 }
 @media (min-width: 600px){
   .login{
-  transform: scale(1.25);
+  transform: scale(2.5);
+    animation: none;
   }
 }
 @media (min-width: 1024px){
   .login{
-    transform: scale(1.5);
+    transform: scale(3);
+    animation: none;
   }
 }
