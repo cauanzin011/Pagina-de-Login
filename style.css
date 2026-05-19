@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background: url("./fundo.png");
+  background: url("./Imagens/fundo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,7 +85,6 @@ h1{
   align-items: center;
   width: 15px;
   height: 15px;
-  object-fit: contain;
 }
 input::placeholder{
   color: darkgray;
@@ -135,7 +134,7 @@ input:focus{
 @media (min-width: 600px){
   .login{
     transform: scale(2.5);
-    animation: : none;
+    animation: none;
   }
 }
 @media (min-width: 1024px){
