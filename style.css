@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background: url("./Imagens/fundo.png");
+  background: url("./fundo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
