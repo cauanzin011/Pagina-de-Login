@@ -29,6 +29,7 @@ body{
   border-radius: 10px;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
   animation: entrar 1s;
+  transition: none;
 }
 h1{
   margin-bottom: 20px;
@@ -132,7 +133,7 @@ input:focus{
 }
 @media (min-width: 600px){
   .login{
-  transform: scale(2.5);
+    transform: scale(2.5);
     animation: none;
   }
 }
@@ -142,3 +143,4 @@ input:focus{
     animation: none;
   }
 }
+Pq nao está aparecendo a imagem  de fundo
